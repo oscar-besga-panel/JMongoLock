@@ -11,12 +11,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.concurrent.locks.Lock;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.oba.jmongolock.IntegrationTestUtils.createMongoClient;
-import static org.oba.jmongolock.IntegrationTestUtils.withMongoClient;
 
 public class JMongoLockAdvancedIntegrationTest {
 
